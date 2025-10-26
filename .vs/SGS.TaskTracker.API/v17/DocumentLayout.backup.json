@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36F440B3-3D55-4726-B7DD-770456C12A0A}|..\\SGS.TaskTracker.Infrastructure\\SGS.TaskTracker.Infrastructure.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95E1978-A490-4D65-AC14-22B0244CC543}|..\\SGS.TaskTracker.Application\\SGS.TaskTracker.Application.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35530F0-3D95-4270-A79D-B92B8A6F52BA}|..\\SGS.TaskTracker.Core\\SGS.TaskTracker.Core.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\SGS.TaskTracker.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "..\\SGS.TaskTracker.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T19:33:49.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\SGS.TaskTracker.Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker.Application\\Class1.cs",
+              "RelativeToolTip": "..\\SGS.TaskTracker.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T19:25:23.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\SGS.TaskTracker.Core\\Class1.cs",
+              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker.Core\\Class1.cs",
+              "RelativeToolTip": "..\\SGS.TaskTracker.Core\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T19:24:15.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
