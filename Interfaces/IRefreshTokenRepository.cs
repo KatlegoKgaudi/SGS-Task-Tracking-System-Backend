@@ -4,9 +4,12 @@ namespace SGS.TaskTracker.Interfaces
 {
     public interface IRefreshTokenRepository
     {
-        Task<RefreshToken?> GetValidTokenAsync(int userId, string token);
+        Task<RefreshToken?> GetByTokenAsync(string token);
         Task AddAsync(RefreshToken refreshToken);
-        Task RevokeAsync(int tokenId);
-        Task RevokeAllForUserAsync(int userId);
+        void Update(RefreshToken refreshToken);
+        Task RevokeTokenAsync(string token);
+        Task RevokeAllTokensForUserAsync(int userId);
+        Task<bool> IsTokenValidAsync(string token);
+        Task<int> SaveChangesAsync();
     }
 }
