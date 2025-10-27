@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using SGS.TaskTracker.Core.DTOs;
 
 namespace SGS.TaskTracker.Application.Common_.Validators
 {

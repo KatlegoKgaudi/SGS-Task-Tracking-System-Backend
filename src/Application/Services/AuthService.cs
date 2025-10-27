@@ -1,4 +1,5 @@
 ﻿using System.Security.Claims;
+using SGS.TaskTracker.Core.Entities;
 using SGS.TaskTracker.Dtos;
 using SGS.TaskTracker.Interfaces;
 using SGS.TaskTracker.Models;

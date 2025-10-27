@@ -3,132 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A929800B-4914-4ACB-B2EF-57B1982CED52}|src\\Core\\SGS.TaskTracker.Core.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\core\\dtos\\paginatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A929800B-4914-4ACB-B2EF-57B1982CED52}|src\\Core\\SGS.TaskTracker.Core.csproj|solutionrelative:src\\core\\dtos\\paginatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95462C7A-88A7-4E19-B614-37B1F5E927FF}|src\\API\\SGS.TaskTracker.API.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{95462C7A-88A7-4E19-B614-37B1F5E927FF}|src\\API\\SGS.TaskTracker.API.csproj|solutionrelative:src\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A929800B-4914-4ACB-B2EF-57B1982CED52}|src\\Core\\SGS.TaskTracker.Core.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\core\\dtos\\paginatedrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A929800B-4914-4ACB-B2EF-57B1982CED52}|src\\Core\\SGS.TaskTracker.Core.csproj|solutionrelative:src\\core\\dtos\\paginatedrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95462C7A-88A7-4E19-B614-37B1F5E927FF}|src\\API\\SGS.TaskTracker.API.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{95462C7A-88A7-4E19-B614-37B1F5E927FF}|src\\API\\SGS.TaskTracker.API.csproj|solutionrelative:src\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A929800B-4914-4ACB-B2EF-57B1982CED52}|src\\Core\\SGS.TaskTracker.Core.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\core\\dtos\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A929800B-4914-4ACB-B2EF-57B1982CED52}|src\\Core\\SGS.TaskTracker.Core.csproj|solutionrelative:src\\core\\dtos\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95462C7A-88A7-4E19-B614-37B1F5E927FF}|src\\API\\SGS.TaskTracker.API.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95462C7A-88A7-4E19-B614-37B1F5E927FF}|src\\API\\SGS.TaskTracker.API.csproj|solutionrelative:src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A929800B-4914-4ACB-B2EF-57B1982CED52}|src\\Core\\SGS.TaskTracker.Core.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\core\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A929800B-4914-4ACB-B2EF-57B1982CED52}|src\\Core\\SGS.TaskTracker.Core.csproj|solutionrelative:src\\core\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9ACFA3A9-29CB-4CFD-AB4F-7528996BCBEB}|src\\Infrastructure\\SGS.TaskTracker.Infrastructure.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\infrastructure\\data\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ACFA3A9-29CB-4CFD-AB4F-7528996BCBEB}|src\\Infrastructure\\SGS.TaskTracker.Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A929800B-4914-4ACB-B2EF-57B1982CED52}|src\\Core\\SGS.TaskTracker.Core.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\core\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A929800B-4914-4ACB-B2EF-57B1982CED52}|src\\Core\\SGS.TaskTracker.Core.csproj|solutionrelative:src\\core\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9ACFA3A9-29CB-4CFD-AB4F-7528996BCBEB}|src\\Infrastructure\\SGS.TaskTracker.Infrastructure.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\infrastructure\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ACFA3A9-29CB-4CFD-AB4F-7528996BCBEB}|src\\Infrastructure\\SGS.TaskTracker.Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACFA3A9-29CB-4CFD-AB4F-7528996BCBEB}|src\\Infrastructure\\SGS.TaskTracker.Infrastructure.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\infrastructure\\data\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ACFA3A9-29CB-4CFD-AB4F-7528996BCBEB}|src\\Infrastructure\\SGS.TaskTracker.Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACFA3A9-29CB-4CFD-AB4F-7528996BCBEB}|src\\Infrastructure\\SGS.TaskTracker.Infrastructure.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\infrastructure\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ACFA3A9-29CB-4CFD-AB4F-7528996BCBEB}|src\\Infrastructure\\SGS.TaskTracker.Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A929800B-4914-4ACB-B2EF-57B1982CED52}|src\\Core\\SGS.TaskTracker.Core.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\core\\data\\tasktrackercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A929800B-4914-4ACB-B2EF-57B1982CED52}|src\\Core\\SGS.TaskTracker.Core.csproj|solutionrelative:src\\core\\data\\tasktrackercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\application\\common_\\validators\\userupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|solutionrelative:src\\application\\common_\\validators\\userupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9ACFA3A9-29CB-4CFD-AB4F-7528996BCBEB}|src\\Infrastructure\\SGS.TaskTracker.Infrastructure.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\infrastructure\\sgs.tasktracker.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9ACFA3A9-29CB-4CFD-AB4F-7528996BCBEB}|src\\Infrastructure\\SGS.TaskTracker.Infrastructure.csproj|solutionrelative:src\\infrastructure\\sgs.tasktracker.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\application\\common_\\validators\\usercreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|solutionrelative:src\\application\\common_\\validators\\usercreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|solutionrelative:src\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\application\\common_\\validators\\taskupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|solutionrelative:src\\application\\common_\\validators\\taskupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\application\\common_\\validators\\taskfilerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|solutionrelative:src\\application\\common_\\validators\\taskfilerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\application\\common_\\validators\\taskcreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|solutionrelative:src\\application\\common_\\validators\\taskcreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\application\\common_\\validators\\refreshtokenrequestvalidatorcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|solutionrelative:src\\application\\common_\\validators\\refreshtokenrequestvalidatorcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\application\\common_\\validators\\paginatedrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|solutionrelative:src\\application\\common_\\validators\\paginatedrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\application\\common_\\validators\\loginrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|solutionrelative:src\\application\\common_\\validators\\loginrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\application\\common_\\mappings\\mappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|solutionrelative:src\\application\\common_\\mappings\\mappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\application\\common_\\mappings\\mapsterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|solutionrelative:src\\application\\common_\\mappings\\mapsterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\application\\common_\\mappings\\mappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|solutionrelative:src\\application\\common_\\mappings\\mappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\application\\common_\\interfaces\\imappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|solutionrelative:src\\application\\common_\\interfaces\\imappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95462C7A-88A7-4E19-B614-37B1F5E927FF}|src\\API\\SGS.TaskTracker.API.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\api\\sgs.tasktracker.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{95462C7A-88A7-4E19-B614-37B1F5E927FF}|src\\API\\SGS.TaskTracker.API.csproj|solutionrelative:src\\api\\sgs.tasktracker.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95462C7A-88A7-4E19-B614-37B1F5E927FF}|src\\API\\SGS.TaskTracker.API.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\api\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95462C7A-88A7-4E19-B614-37B1F5E927FF}|src\\API\\SGS.TaskTracker.API.csproj|solutionrelative:src\\api\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Models\\RefreshToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\RefreshToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Interfaces\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Interfaces\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Interfaces\\IRefreshTokenRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Interfaces\\IRefreshTokenRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Services\\JwtTokenGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\JwtTokenGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Interfaces\\IJwtTokenGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Interfaces\\IJwtTokenGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Dtos\\AuthResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dtos\\AuthResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Dtos\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dtos\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\SGS.TaskTracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SGS.TaskTracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|c:\\users\\katle\\desktop\\dev\\sgs-task-tracking-assessment-backend\\sgs.tasktracker\\src\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F1F85E0-90B0-4633-82E4-6B2EE3C8E0C8}|src\\Application\\SGS.TaskTracker.Application.csproj|solutionrelative:src\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,403 +54,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PaginatedResponse.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\DTOs\\PaginatedResponse.cs",
-              "RelativeDocumentMoniker": "src\\Core\\DTOs\\PaginatedResponse.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\DTOs\\PaginatedResponse.cs",
-              "RelativeToolTip": "src\\Core\\DTOs\\PaginatedResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T11:20:34.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PaginatedRequest.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\DTOs\\PaginatedRequest.cs",
-              "RelativeDocumentMoniker": "src\\Core\\DTOs\\PaginatedRequest.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\DTOs\\PaginatedRequest.cs",
-              "RelativeToolTip": "src\\Core\\DTOs\\PaginatedRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T11:20:00.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ErrorResponse.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\DTOs\\ErrorResponse.cs",
-              "RelativeDocumentMoniker": "src\\Core\\DTOs\\ErrorResponse.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\DTOs\\ErrorResponse.cs",
-              "RelativeToolTip": "src\\Core\\DTOs\\ErrorResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T11:18:36.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthResponse.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\DTOs\\AuthResponse.cs",
-              "RelativeDocumentMoniker": "src\\Core\\DTOs\\AuthResponse.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\DTOs\\AuthResponse.cs",
-              "RelativeToolTip": "src\\Core\\DTOs\\AuthResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T11:17:56.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\DTOs\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "src\\Core\\DTOs\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\DTOs\\ApiResponse.cs",
-              "RelativeToolTip": "src\\Core\\DTOs\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T11:16:10.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TaskTrackerContext.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\Data\\TaskTrackerContext.cs",
-              "RelativeDocumentMoniker": "src\\Core\\Data\\TaskTrackerContext.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\Data\\TaskTrackerContext.cs",
-              "RelativeToolTip": "src\\Core\\Data\\TaskTrackerContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T11:14:57.475Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserUpdateDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\UserUpdateDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Common_\\Validators\\UserUpdateDtoValidator.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\UserUpdateDtoValidator.cs",
-              "RelativeToolTip": "src\\Application\\Common_\\Validators\\UserUpdateDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\API\\appsettings.Development.json",
+              "RelativeToolTip": "src\\API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-27T16:38:02.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\API\\appsettings.json",
+              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\API\\appsettings.json",
+              "RelativeToolTip": "src\\API\\appsettings.json",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-27T16:34:47.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\API\\Program.cs",
+              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\API\\Program.cs",
+              "RelativeToolTip": "src\\API\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowDwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T11:09:37.42Z",
+              "WhenOpened": "2025-10-27T16:20:46.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA5wBkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T16:20:27.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RefreshTokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Infrastructure\\Data\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\Repositories\\RefreshTokenRepository.cs",
+              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Infrastructure\\Data\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\Repositories\\RefreshTokenRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T16:20:14.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Infrastructure\\Data\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\Repositories\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Infrastructure\\Data\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T16:16:12.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "UserCreateDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\UserCreateDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Common_\\Validators\\UserCreateDtoValidator.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\UserCreateDtoValidator.cs",
-              "RelativeToolTip": "src\\Application\\Common_\\Validators\\UserCreateDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Title": "TaskTrackerContext.cs",
+              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\Data\\TaskTrackerContext.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Data\\TaskTrackerContext.cs",
+              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\Data\\TaskTrackerContext.cs",
+              "RelativeToolTip": "src\\Core\\Data\\TaskTrackerContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T11:08:18.233Z",
+              "WhenOpened": "2025-10-27T16:15:44.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "TaskUpdateDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\TaskUpdateDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Common_\\Validators\\TaskUpdateDtoValidator.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\TaskUpdateDtoValidator.cs",
-              "RelativeToolTip": "src\\Application\\Common_\\Validators\\TaskUpdateDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Title": "SGS.TaskTracker.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Infrastructure\\SGS.TaskTracker.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\SGS.TaskTracker.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Infrastructure\\SGS.TaskTracker.Infrastructure.csproj",
+              "RelativeToolTip": "src\\Infrastructure\\SGS.TaskTracker.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-27T16:14:19.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Infrastructure\\Data\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Infrastructure\\Data\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T11:06:51.008Z",
+              "WhenOpened": "2025-10-27T16:13:46.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "TaskFilerDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\TaskFilerDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Common_\\Validators\\TaskFilerDtoValidator.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\TaskFilerDtoValidator.cs",
-              "RelativeToolTip": "src\\Application\\Common_\\Validators\\TaskFilerDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T11:05:31.737Z",
+              "WhenOpened": "2025-10-27T16:13:38.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "TaskCreateDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\TaskCreateDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Common_\\Validators\\TaskCreateDtoValidator.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\TaskCreateDtoValidator.cs",
-              "RelativeToolTip": "src\\Application\\Common_\\Validators\\TaskCreateDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAowDQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T11:03:32.71Z",
+              "WhenOpened": "2025-10-27T16:13:26.8Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RefreshTokenRequestValidatorcs.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\RefreshTokenRequestValidatorcs.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Common_\\Validators\\RefreshTokenRequestValidatorcs.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\RefreshTokenRequestValidatorcs.cs",
-              "RelativeToolTip": "src\\Application\\Common_\\Validators\\RefreshTokenRequestValidatorcs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T11:02:32.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PaginatedRequestValidator.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\PaginatedRequestValidator.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Common_\\Validators\\PaginatedRequestValidator.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\PaginatedRequestValidator.cs",
-              "RelativeToolTip": "src\\Application\\Common_\\Validators\\PaginatedRequestValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T11:01:07.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LoginRequestValidator.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\LoginRequestValidator.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Common_\\Validators\\LoginRequestValidator.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Validators\\LoginRequestValidator.cs",
-              "RelativeToolTip": "src\\Application\\Common_\\Validators\\LoginRequestValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T11:00:03.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MapsterConfig.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Mappings\\MapsterConfig.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Common_\\Mappings\\MapsterConfig.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Mappings\\MapsterConfig.cs",
-              "RelativeToolTip": "src\\Application\\Common_\\Mappings\\MapsterConfig.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T10:58:49.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MappingService.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Mappings\\MappingService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Common_\\Mappings\\MappingService.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Mappings\\MappingService.cs",
-              "RelativeToolTip": "src\\Application\\Common_\\Mappings\\MappingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T10:57:55.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MappingExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Mappings\\MappingExtensions.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Common_\\Mappings\\MappingExtensions.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Mappings\\MappingExtensions.cs",
-              "RelativeToolTip": "src\\Application\\Common_\\Mappings\\MappingExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T10:52:36.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IMappingService.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Interfaces\\IMappingService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Common_\\Interfaces\\IMappingService.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\Common_\\Interfaces\\IMappingService.cs",
-              "RelativeToolTip": "src\\Application\\Common_\\Interfaces\\IMappingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T10:51:39.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\API\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "src\\API\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\API\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "src\\API\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T09:29:20.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SGS.TaskTracker.API.csproj",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\API\\SGS.TaskTracker.API.csproj",
-              "RelativeDocumentMoniker": "src\\API\\SGS.TaskTracker.API.csproj",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\API\\SGS.TaskTracker.API.csproj",
-              "RelativeToolTip": "src\\API\\SGS.TaskTracker.API.csproj",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAIwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-27T09:18:20.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-26T08:59:27.97Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "RefreshToken.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Models\\RefreshToken.cs",
-              "RelativeDocumentMoniker": "Models\\RefreshToken.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Models\\RefreshToken.cs",
-              "RelativeToolTip": "Models\\RefreshToken.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T20:19:45.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "Interfaces\\IAuthService.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T20:13:33.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T20:14:46.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IRefreshTokenRepository.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Interfaces\\IRefreshTokenRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IRefreshTokenRepository.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Interfaces\\IRefreshTokenRepository.cs",
-              "RelativeToolTip": "Interfaces\\IRefreshTokenRepository.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T20:19:06.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T20:16:06.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "JwtTokenGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Services\\JwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "Services\\JwtTokenGenerator.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Services\\JwtTokenGenerator.cs",
-              "RelativeToolTip": "Services\\JwtTokenGenerator.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T20:11:03.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IJwtTokenGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Interfaces\\IJwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IJwtTokenGenerator.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Interfaces\\IJwtTokenGenerator.cs",
-              "RelativeToolTip": "Interfaces\\IJwtTokenGenerator.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T20:08:37.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AuthResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Dtos\\AuthResponseDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\AuthResponseDto.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Dtos\\AuthResponseDto.cs",
-              "RelativeToolTip": "Dtos\\AuthResponseDto.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T20:05:05.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Dtos\\LoginDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Dtos\\LoginDto.cs",
-              "RelativeToolTip": "Dtos\\LoginDto.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T20:03:44.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T19:57:58.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "SGS.TaskTracker.csproj",
-              "DocumentMoniker": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\SGS.TaskTracker.csproj",
-              "RelativeDocumentMoniker": "SGS.TaskTracker.csproj",
-              "ToolTip": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\SGS.TaskTracker.csproj",
-              "RelativeToolTip": "SGS.TaskTracker.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-24T19:50:52.739Z"
             }
           ]
         }

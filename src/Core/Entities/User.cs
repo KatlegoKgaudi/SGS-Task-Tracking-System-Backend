@@ -15,3 +15,9 @@ namespace SGS.TaskTracker.Core.Entities
         public virtual ICollection<RefreshToken> RefreshTokens { get; set; } = new List<RefreshToken>();
     }
 }
+
+public enum UserRole
+{
+    Regular = 0,
+    Admin = 1
+}

@@ -1,4 +1,6 @@
 ﻿
+using Microsoft.EntityFrameworkCore;
+using SGS.TaskTracker.Core.Data;
 using SGS.TaskTracker.Core.Entities;
 using SGS.TaskTracker.Interfaces;
 

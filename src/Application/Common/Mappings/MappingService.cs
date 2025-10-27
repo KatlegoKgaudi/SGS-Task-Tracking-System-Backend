@@ -1,8 +1,8 @@
 ﻿using Mapster;
-using SGS.TaskTracker.Application.Common_.Interfaces;
+using SGS.TaskTracker.Common.Interfaces;
 
 
-namespace SGS.TaskTracker.Application.Common_.Mappings
+namespace SGS.TaskTracker.Common.Mappings
 {
     public class MappingService : IMappingService
     {
