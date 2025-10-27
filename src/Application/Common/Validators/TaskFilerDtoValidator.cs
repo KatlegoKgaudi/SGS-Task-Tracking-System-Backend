@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using SGS.TaskTracker.Core.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;

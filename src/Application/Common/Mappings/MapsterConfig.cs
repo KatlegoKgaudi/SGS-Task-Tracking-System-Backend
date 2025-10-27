@@ -1,9 +1,10 @@
 ﻿using Mapster;
+using SGS.TaskTracker.Core.DTOs;
+using SGS.TaskTracker.Core.Entities;
 using SGS.TaskTracker.Dtos;
 using SGS.TaskTracker.Entities;
-using SGS.TaskTracker.Models;
 
-namespace SGS.TaskTracker.Application.Common_.Mappings
+namespace SGS.TaskTracker.Common.Mappings
 {
     public static class MapsterConfig
     {
