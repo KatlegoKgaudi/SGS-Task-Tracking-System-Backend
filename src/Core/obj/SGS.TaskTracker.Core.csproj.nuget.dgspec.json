@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker.Core\\SGS.TaskTracker.Core.csproj": {}
+    "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\SGS.TaskTracker.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker.Core\\SGS.TaskTracker.Core.csproj": {
+    "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\SGS.TaskTracker.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker.Core\\SGS.TaskTracker.Core.csproj",
+        "projectUniqueName": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\SGS.TaskTracker.Core.csproj",
         "projectName": "SGS.TaskTracker.Core",
-        "projectPath": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker.Core\\SGS.TaskTracker.Core.csproj",
+        "projectPath": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\SGS.TaskTracker.Core.csproj",
         "packagesPath": "C:\\Users\\katle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker.Core\\obj\\",
+        "outputPath": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
