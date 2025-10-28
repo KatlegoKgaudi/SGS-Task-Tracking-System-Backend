@@ -1,12 +1,7 @@
 ﻿using FluentValidation;
-using SGS.TaskTracker.Dtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SGS.TaskTracker.Core.DTOs;
 
-namespace SGS.TaskTracker.Application.Common_.Validators
+namespace SGS.TaskTracker.Application.Common.Validators
 {
     public class RefreshTokenRequestValidator : AbstractValidator<TokenRefreshRequest>
     {

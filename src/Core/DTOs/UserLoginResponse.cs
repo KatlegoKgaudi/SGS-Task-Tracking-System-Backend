@@ -1,4 +1,4 @@
-﻿namespace SGS.TaskTracker.Dtos
+﻿namespace SGS.TaskTracker.Core.DTOs
 {
     public class UserLoginResponse
     {

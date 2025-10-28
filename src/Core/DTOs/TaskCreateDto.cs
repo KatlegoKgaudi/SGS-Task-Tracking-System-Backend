@@ -1,4 +1,4 @@
-﻿using SGS.TaskTracker.Enums;
+﻿using SGS.TaskTracker.Core.Enums;
 
 namespace SGS.TaskTracker.Core.DTOs
 {

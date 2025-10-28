@@ -1,68 +1,69 @@
 ﻿using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
+using SGS.TaskTracker.Core.DTOs;
 using SGS.TaskTracker.Dtos;
 using SGS.TaskTracker.Interfaces;
 using SGS.TaskTracker.Models;
 
-
-namespace SSGTaskTracker.API.Controllers;
-
-[ApiController]
-[Route("api/[controller]")]
-[Produces("application/json")]
-public class AuthController : ControllerBase
+namespace SGS.TaskTracker.API.Controllers
 {
-    private readonly IAuthService _authService;
-
-    public AuthController(IAuthService authService)
+    [ApiController]
+    [Route("api/[controller]")]
+    [Produces("application/json")]
+    public class AuthController : ControllerBase
     {
-        _authService = authService;
-    }
+        private readonly IAuthService _authService;
 
-    [HttpPost("register")]
-    [ProducesResponseType(typeof(AuthResponse), StatusCodes.Status200OK)]
-    [ProducesResponseType(typeof(AuthResponse), StatusCodes.Status400BadRequest)]
-    public async Task<ActionResult<AuthResponse>> Register([FromBody] UserRegisterRequest request)
-    {
-        var result = await _authService.RegisterAsync(request);
+        public AuthController(IAuthService authService)
+        {
+            _authService = authService;
+        }
 
-        if (!result.Success)
-            return BadRequest(result);
+        [HttpPost("register")]
+        [ProducesResponseType(typeof(AuthResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(AuthResponse), StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult<AuthResponse>> Register([FromBody] UserRegisterRequest request)
+        {
+            var result = await _authService.RegisterAsync(request);
 
-        return Ok(result);
-    }
+            if (!result.Success)
+                return BadRequest(result);
+
+            return Ok(result);
+        }
 
 
-    [HttpPost("login")]
-    [ProducesResponseType(typeof(UserLoginResponse), StatusCodes.Status200OK)]
-    [ProducesResponseType(typeof(AuthResponse), StatusCodes.Status401Unauthorized)]
-    public async Task<ActionResult<AuthResponse>> Login([FromBody] UserLoginRequest request)
-    {
-        var result = await _authService.LoginAsync(request);
+        [HttpPost("login")]
+        [ProducesResponseType(typeof(UserLoginResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(AuthResponse), StatusCodes.Status401Unauthorized)]
+        public async Task<ActionResult<AuthResponse>> Login([FromBody] UserLoginRequest request)
+        {
+            var result = await _authService.LoginAsync(request);
 
-        if (!result.Success)
-            return Unauthorized(result);
+            if (!result.Success)
+                return Unauthorized(result);
 
-        return Ok(result);
-    }
+            return Ok(result);
+        }
 
-    [HttpPost("refresh")]
-    [ProducesResponseType(typeof(AuthResponse), StatusCodes.Status200OK)]
-    [ProducesResponseType(typeof(AuthResponse), StatusCodes.Status401Unauthorized)]
-    public async Task<ActionResult<AuthResponse>> RefreshToken([FromBody] TokenRefreshRequest request)
-    {
-        var result = await _authService.RefreshTokenAsync(request);
+        [HttpPost("refresh")]
+        [ProducesResponseType(typeof(AuthResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(AuthResponse), StatusCodes.Status401Unauthorized)]
+        public async Task<ActionResult<AuthResponse>> RefreshToken([FromBody] TokenRefreshRequest request)
+        {
+            var result = await _authService.RefreshTokenAsync(request);
 
-        if (!result.Success)
-            return Unauthorized(result);
+            if (!result.Success)
+                return Unauthorized(result);
 
-        return Ok(result);
-    }
+            return Ok(result);
+        }
 
-    [HttpPost("logout")]
-    [ProducesResponseType(StatusCodes.Status200OK)]
-    public async Task<ActionResult> Logout()
-    {
-        return Ok(new { message = "Logged out successfully" });
+        [HttpPost("logout")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<ActionResult> Logout()
+        {
+            return Ok(new { message = "Logged out successfully" });
+        }
     }
 }

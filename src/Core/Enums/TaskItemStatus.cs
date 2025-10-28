@@ -1,4 +1,4 @@
-﻿namespace SGS.TaskTracker.Enums
+﻿namespace SGS.TaskTracker.Core.Enums
 {
     public enum TaskItemStatus
     {

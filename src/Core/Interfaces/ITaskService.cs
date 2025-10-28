@@ -1,6 +1,5 @@
 ﻿using SGS.TaskTracker.Core.DTOs;
-using SGS.TaskTracker.Enums;
-
+using SGS.TaskTracker.Core.Enums;
 
 namespace SGS.TaskTracker.Interfaces
 {

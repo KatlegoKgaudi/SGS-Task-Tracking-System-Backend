@@ -1,7 +1,4 @@
-﻿using SGS.TaskTracker.Core.Entities;
-using SGS.TaskTracker.Core.Enums;
-
-namespace SGS.TaskTracker.Dtos
+﻿namespace SGS.TaskTracker.Core.DTOs
 {
     public class UserCreateDto
     {

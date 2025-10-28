@@ -2,7 +2,7 @@
 using SGS.TaskTracker.Dtos;
 using SGS.TaskTracker.Interfaces;
 
-namespace SGS.TaskTracker.Controllers
+namespace SGS.TaskTracker.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

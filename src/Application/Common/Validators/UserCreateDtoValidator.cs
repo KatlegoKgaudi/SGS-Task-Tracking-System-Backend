@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using SGS.TaskTracker.Dtos;
 
-namespace SGS.TaskTracker.Application.Common_.Validators
+namespace SGS.TaskTracker.Application.Common.Validators
 {
     public class UserCreateDtoValidator : AbstractValidator<UserCreateDto>
     {

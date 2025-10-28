@@ -1,7 +1,4 @@
-﻿using SGS.TaskTracker.Core.Enums;
-using SGS.TaskTracker.Entities;
-
-namespace SGS.TaskTracker.Core.Entities
+﻿namespace SGS.TaskTracker.Core.Entities
 {
     public class User
     {
