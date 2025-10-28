@@ -20,6 +20,7 @@ this document shall serve as a guide on how to do the following:
 
 ## Ports used
 - Angular dev server: `http://localhost:4200`
+- .NET dev server: `https://localhost:44368`
 
 ## 1. Retriving code from GitHub
 In order to access the SGS-Task-Tracking-System-Backend Repository from github one needs to navigate the following link in their browser: https://github.com/KatlegoKgaudi/SGS-Task-Tracking-System-Backend 
