@@ -40,10 +40,23 @@ In order to setup the angular app, navigate to the folder where you pulled down 
 ## 4. Setting up DB (Optional for Option 1 users)
 In the event where you used Option 2 instead of 1 possibly because Option 1 did not work as expected, you will open the solution, open up the solution explorer (view instructions above for details) and then you will expand the src folder underneath the solution (click the dropdown icon on the right of the foldername) and from there you should be able to expand Infrastructure, expand SGS.TaskTracker.Infrastructure, expand Data, expand Scripts, double click on the 'CreateAndSeedDatabase.sql' script, a page will open on, click on an empty space within that page, press 'CTRL' + 'A' and then press 'CTRL' + 'C' at the same times, open sql server and connect to your server, either through windows authentication (for windows users) or the other authentication option. From here click on your server at the top of the object explorer and press the 'new query' button on the top most ribbon. from here press on an empty space on the newly opened query window, and then press 'CTRL' + 'V' to paste the script, press 'CTRL' + 'A' navigate to the  top ribbon again, and press 'Execute'. This should create and seed the database, then from here you can click on the new 'TaskTrackerDB' and press 'new query' button to run the following script to also get the connection string with which you will replace the one in 'quotation marks' that is already present in appsettings.json or appsettings.development.json. From here everything should be fully setup and you are ready to test the app, or test the api with Postman or any other HTTP request and response system. 
 
+Script: select
+    'data source=' + @@servername +
+    ';initial catalog=' + db_name() +
+    case type_desc
+        when 'WINDOWS_LOGIN' 
+            then ';trusted_connection=true'
+        else
+            ';user id=' + suser_name() + ';password=<<YourPassword>>'
+    end
+    as ConnectionString
+from sys.server_principals
+where name = suser_name()
+
 ## Design Decisions Rationale
 I went with a strict layered clean architecture because I wanted clear separation of concerns and maintainability. This is good design as it makes it easier to use design patterns and interface implementations, SOLID principles for things like single responsibility files, Dependency Inversion, Dependency Injection, scopeability, and other various quirks which makes this a maintainable project and Open for extension but closed for modification. 
 
-## Thing's id add given enough time
+## Functionality I'd add given enough time. 
 I would definitely hook up the authentication with Microsoft Azure's federated identity or single sign on, so that should a company be using microsoft suite applications they would only need to sign in on one device and can then access this application or other applications with Azure's Single Sign-On capabilities. I would also be down to add Azure Functions to the background service portion of the application so that the application can react dynamically to events and run quick on severless functionality instead of having to provision a new server that has a long startup time and is not necessary to maintain the background service functionality. 
 
 
