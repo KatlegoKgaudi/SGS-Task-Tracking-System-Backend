@@ -1,7 +1,6 @@
 ﻿using Mapster;
 using SGS.TaskTracker.Core.DTOs;
 using SGS.TaskTracker.Core.Entities;
-using SGS.TaskTracker.Dtos;
 
 namespace SGS.TaskTracker.Application.Common.Mappings
 {

@@ -29,8 +29,8 @@ builder.Services.AddCors(options =>
 builder.Services.AddOpenApi(); 
 
 var jwtSecret = builder.Configuration["Jwt:Secret"] ?? throw new InvalidOperationException("JWT Secret is not configured");
-var jwtIssuer = builder.Configuration["Jwt:Issuer"] ?? "SSGTaskTracker";
-var jwtAudience = builder.Configuration["Jwt:Audience"] ?? "SSGTaskTrackerUsers";
+var jwtIssuer = builder.Configuration["Jwt:Issuer"] ?? "SGS.TaskTracker";
+var jwtAudience = builder.Configuration["Jwt:Audience"] ?? "SGS.TaskTrackerUsers";
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -81,7 +81,7 @@ if (app.Environment.IsDevelopment())
     {
         app.UseSwaggerUI(options =>
         {
-            options.DocumentTitle = "SSG TaskTracker API Documentation";
+            options.DocumentTitle = "SGS TaskTracker API Documentation";
         });
     }
 }

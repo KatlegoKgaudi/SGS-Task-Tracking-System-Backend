@@ -1,4 +1,4 @@
-﻿using SGS.TaskTracker.Common.Mappings;
+﻿using SGS.TaskTracker.Application.Common.Mappings;
 using SGS.TaskTracker.Core.DTOs;
 using SGS.TaskTracker.Core.Enums;
 using SGS.TaskTracker.Core.Interfaces;

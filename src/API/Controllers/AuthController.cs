@@ -1,9 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity.Data;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SGS.TaskTracker.Core.DTOs;
-using SGS.TaskTracker.Dtos;
 using SGS.TaskTracker.Interfaces;
-using SGS.TaskTracker.Models;
 
 namespace SGS.TaskTracker.API.Controllers
 {
@@ -61,7 +58,7 @@ namespace SGS.TaskTracker.API.Controllers
 
         [HttpPost("logout")]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<ActionResult> Logout()
+        public ActionResult Logout()  
         {
             return Ok(new { message = "Logged out successfully" });
         }
