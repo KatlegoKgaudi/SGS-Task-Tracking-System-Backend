@@ -88,10 +88,6 @@ app.publish/
 __pycache__/
 *.pyc
 
-# Node.js
-node_modules/
-npm-debug.log
-
 # Docker
 .dockerignore
 
