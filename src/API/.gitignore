@@ -98,6 +98,14 @@ npm-debug.log
 # Rider
 .idea/
 
-# macOS
-.AppleDouble
-.LSOverride
+# Angular
+/angular-app/dist/
+/angular-app/node_modules/
+/angular-app/.angular/
+/angular-app/.vscode/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
