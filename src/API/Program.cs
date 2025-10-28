@@ -11,10 +11,6 @@ builder.Configuration
     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true)
     .AddEnvironmentVariables();
 
-//for debugging
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-Console.WriteLine($"Using Connection String: {connectionString}");
-
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddHttpContextAccessor();
@@ -31,26 +27,6 @@ builder.Services.AddDataProtection()
     .SetApplicationName("SGS.TaskTracker");
 
 var app = builder.Build();
-
-app.MapGet("/db-health", async (IServiceProvider services) =>
-{
-    try
-    {
-        using var scope = services.CreateScope();
-        var context = scope.ServiceProvider.GetRequiredService<TaskTrackerContext>();
-        var canConnect = await context.Database.CanConnectAsync();
-        return Results.Ok(new
-        {
-            status = "Healthy",
-            database = "Connected",
-            server = "sgs-tasktracker-db"
-        });
-    }
-    catch (Exception ex)
-    {
-        return Results.Problem($"Database connection failed: {ex.Message}");
-    }
-});
 
 app.ConfigurePipeline();
 

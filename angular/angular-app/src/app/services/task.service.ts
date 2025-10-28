@@ -8,7 +8,7 @@ import { ApiConfigService } from './api-config.service';
   providedIn: 'root'
 })
 export class TaskService {
-  private apiUrl = 'http://localhost:5106/api/tasks';
+   private apiUrl = 'https://localhost:44368/api/tasks';
 
   constructor(private http: HttpClient, private apiConfig: ApiConfigService) {}
 

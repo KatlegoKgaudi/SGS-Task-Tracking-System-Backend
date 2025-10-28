@@ -1,6 +1,5 @@
-// src/app/services/auth.service.ts
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, firstValueFrom } from 'rxjs';
 import { ApiConfigService } from './api-config.service';
 import { HttpClient } from '@angular/common/http';
 
@@ -25,6 +24,7 @@ export interface AuthResponse {
   providedIn: 'root'
 })
 export class AuthService {
+  private apiUrl = 'https://localhost:44368/api';
   private tokenKey = 'auth_token';
   private userKey = 'current_user';
   private currentUserSubject = new BehaviorSubject<any>(null);
@@ -60,11 +60,11 @@ export class AuthService {
   }
 
   public async login(request: LoginRequest): Promise<AuthResponse> {
-    // Attempt login against the first working host, with fallback built-into apiConfig
     const baseUrl = await this.apiConfig.getApiUrl();
     const url = `${baseUrl}/api/auth/login`;
+
     try {
-      const resp = await this.http.post<AuthResponse>(url, request).toPromise();
+      const resp = await firstValueFrom(this.http.post<AuthResponse>(url, request));
       if (resp && resp.success && resp.token) {
         this.setToken(resp.token);
         if (resp.user) {
@@ -72,12 +72,15 @@ export class AuthService {
           this.currentUserSubject.next(resp.user);
         }
       }
-      return resp;
+      return resp ?? { success: false, message: 'Empty response from server.' };
     } catch (err) {
-      // If first attempt failed, try the other host explicitly (defensive)
-      const fallback = baseUrl.includes(':8080') ? baseUrl.replace(':8080', ':5106') : baseUrl.replace(':5106', ':8080');
+      // fallback port switch between 8080 and IIS (5106)
+      const fallback = baseUrl.includes(':8080')
+        ? baseUrl.replace(':8080', ':5106')
+        : baseUrl.replace(':5106', ':8080');
+
       try {
-        const resp2 = await this.http.post<AuthResponse>(`${fallback}/api/auth/login`, request).toPromise();
+        const resp2 = await firstValueFrom(this.http.post<AuthResponse>(`${fallback}/api/auth/login`, request));
         if (resp2 && resp2.success && resp2.token) {
           this.setToken(resp2.token);
           if (resp2.user) {
@@ -85,11 +88,8 @@ export class AuthService {
             this.currentUserSubject.next(resp2.user);
           }
         }
-        // update cached base to fallback if success
-        // Note: we don't change the ApiConfigService.baseUrl from here to avoid circular DI; ApiConfigService will detect the next time.
-        return resp2;
+        return resp2 ?? { success: false, message: 'Empty response from fallback server.' };
       } catch (err2) {
-        // return a structured error response
         return {
           success: false,
           message: 'Login failed: unable to contact backend.'
@@ -108,19 +108,20 @@ export class AuthService {
     return this.currentUserSubject.value;
   }
 
-  // Role helpers. Adjust role numbers to your backend's source of truth.
+  // Role helpers based on your DB roles:
+  // 0 = user, 1 = admin, 2 = super admin
   public isSuperAdmin(): boolean {
     const u = this.currentUser();
-    return !!u && u.role === 1; // change to whatever value means super admin in backend
+    return !!u && u.role === 2;
   }
 
   public isAdmin(): boolean {
     const u = this.currentUser();
-    return !!u && (u.role === 2 || this.isSuperAdmin());
+    return !!u && (u.role === 1 || u.role === 2);
   }
 
   public isUser(): boolean {
     const u = this.currentUser();
-    return !!u && (u.role === 3 || this.isAdmin() || this.isSuperAdmin());
+    return !!u && (u.role === 0 || this.isAdmin() || this.isSuperAdmin());
   }
 }
