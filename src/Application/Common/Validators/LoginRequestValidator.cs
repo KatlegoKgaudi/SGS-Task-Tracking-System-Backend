@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using SGS.TaskTracker.Dtos;
+using SGS.TaskTracker.Core.DTOs;
 
-namespace SGS.TaskTracker.Application.Common_.Validators
+namespace SGS.TaskTracker.Application.Common.Validators
 {
     public class LoginRequestValidator : AbstractValidator<UserLoginRequest>
     {

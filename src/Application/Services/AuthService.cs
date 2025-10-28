@@ -1,9 +1,7 @@
 ﻿using System.Security.Claims;
+using SGS.TaskTracker.Core.DTOs;
 using SGS.TaskTracker.Core.Entities;
-using SGS.TaskTracker.Dtos;
 using SGS.TaskTracker.Interfaces;
-using SGS.TaskTracker.Models;
-
 
 namespace SGS.TaskTracker.Application.Services
 {
@@ -62,7 +60,6 @@ namespace SGS.TaskTracker.Application.Services
             await _userRepository.AddAsync(user);
             await _userRepository.SaveChangesAsync();
 
-            // Generate tokens
             var token = _tokenService.GenerateJwtToken(user);
             var refreshToken = _tokenService.GenerateRefreshToken();
 

@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using SGS.TaskTracker.Core.DTOs;
 
-namespace SGS.TaskTracker.Application.Common_.Validators
+namespace SGS.TaskTracker.Application.Common.Validators
 {
     public class TaskUpdateDtoValidator : AbstractValidator<TaskUpdateDto>
     {

@@ -1,7 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SGS.TaskTracker.Core.Entities;
-using SGS.TaskTracker.Entities;
-
 
 namespace SGS.TaskTracker.Core.Data
 {

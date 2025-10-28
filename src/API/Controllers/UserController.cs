@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SGS.TaskTracker.Dtos;
+using SGS.TaskTracker.Core.DTOs;
 using SGS.TaskTracker.Interfaces;
 
-namespace SGS.TaskTracker.Controllers
+namespace SGS.TaskTracker.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

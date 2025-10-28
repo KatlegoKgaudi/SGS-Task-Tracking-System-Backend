@@ -1,4 +1,4 @@
-﻿using SGS.TaskTracker.Dtos;
+﻿using SGS.TaskTracker.Core.DTOs;
 
 namespace SGS.TaskTracker.Interfaces
 {

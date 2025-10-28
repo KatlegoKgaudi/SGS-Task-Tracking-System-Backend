@@ -1,5 +1,5 @@
-﻿using SGS.TaskTracker.Common.Mappings;
-using SGS.TaskTracker.Dtos;
+﻿using SGS.TaskTracker.Application.Common.Mappings;
+using SGS.TaskTracker.Core.DTOs;
 using SGS.TaskTracker.Interfaces;
 
 namespace SGS.TaskTracker.Application.Services

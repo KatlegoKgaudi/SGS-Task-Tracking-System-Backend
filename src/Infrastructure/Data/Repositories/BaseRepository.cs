@@ -3,7 +3,6 @@ using SGS.TaskTracker.Core.Data;
 using SGS.TaskTracker.Core.Interfaces;
 using System.Linq.Expressions;
 
-
 namespace SGS.TaskTracker.Infrastructure.Data.Repositories
 {
     public class BaseRepository<T> : IRepository<T> where T : class

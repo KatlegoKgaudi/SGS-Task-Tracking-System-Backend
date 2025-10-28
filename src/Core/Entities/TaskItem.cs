@@ -1,7 +1,6 @@
-﻿using SGS.TaskTracker.Core.Entities;
-using SGS.TaskTracker.Enums;
+﻿using SGS.TaskTracker.Core.Enums;
 
-namespace SGS.TaskTracker.Entities
+namespace SGS.TaskTracker.Core.Entities
 {
     public class TaskItem
     {

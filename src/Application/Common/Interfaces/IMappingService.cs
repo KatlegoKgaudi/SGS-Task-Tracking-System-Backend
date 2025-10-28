@@ -1,4 +1,4 @@
-﻿namespace SGS.TaskTracker.Common.Interfaces
+﻿namespace SGS.TaskTracker.Application.Common.Interfaces
 {
     public interface IMappingService
     {
