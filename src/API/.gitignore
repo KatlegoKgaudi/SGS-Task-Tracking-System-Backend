@@ -88,16 +88,20 @@ app.publish/
 __pycache__/
 *.pyc
 
-# Node.js
-node_modules/
-npm-debug.log
-
 # Docker
 .dockerignore
 
 # Rider
 .idea/
 
-# macOS
-.AppleDouble
-.LSOverride
+# Angular
+/angular-app/dist/
+/angular-app/node_modules/
+/angular-app/.angular/
+/angular-app/.vscode/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*

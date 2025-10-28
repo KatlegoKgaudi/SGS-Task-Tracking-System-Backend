@@ -1,0 +1,63 @@
+﻿services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sgs-tasktracker-db
+    environment:
+      SA_PASSWORD: "YourStrong!Password123"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Express"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+      - ./Infrastructure/Data/Scripts:/scripts
+    networks:
+      - sgs-network
+    # Add this command to initialize the database
+    command: 
+      - /bin/bash
+      - -c 
+      - |
+        # Start SQL Server
+        /opt/mssql/bin/sqlservr &
+        
+        # Wait for SQL Server to be ready
+        echo "Waiting for SQL Server to start..."
+        for i in {1..50}; do
+            if /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "YourStrong!Password123" -Q "SELECT 1;" &> /dev/null; then
+                echo "SQL Server is ready."
+                break
+            else
+                echo "Not ready yet... waiting ($i/50)"
+                sleep 2
+            fi
+        done
+        
+        # Initialize the database
+        echo "Creating and seeding database..."
+        /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "YourStrong!Password123" -d master -i /scripts/CreateAndSeedDatabase.sql
+        
+        # Keep the container running
+        wait
+
+  sgs.tasktracker.api:
+    build:
+      context: .
+      dockerfile: src/API/Dockerfile
+    container_name: sgs-tasktracker-api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sgs-tasktracker-db,1433;Database=TaskTrackerDB;User Id=sa;Password=YourStrong!Password123;TrustServerCertificate=true;
+    ports:
+      - "5106:8080"
+    depends_on:
+      - sqlserver
+    networks:
+      - sgs-network
+
+volumes:
+  sqlserver_data:
+
+networks:
+  sgs-network:
+    driver: bridge

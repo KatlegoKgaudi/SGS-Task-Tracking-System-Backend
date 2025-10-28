@@ -6,6 +6,11 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{81034408-37C8-1011-444E-4C15C2FADA8E}"
+	ProjectSection(SolutionItems) = preProject
+		src\API\.dockerignore = src\API\.dockerignore
+		src\API\docker-compose.yml = src\API\docker-compose.yml
+		src\API\Dockerfile = src\API\Dockerfile
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGS.TaskTracker.API", "src\API\SGS.TaskTracker.API.csproj", "{95462C7A-88A7-4E19-B614-37B1F5E927FF}"
 EndProject

@@ -1,30 +1,40 @@
-# See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
-# This stage is used when running from VS in fast mode (Default for Debug configuration)
+# Base runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
-USER $APP_UID
 WORKDIR /app
 EXPOSE 8080
 EXPOSE 8081
 
-
-# This stage is used to build the service project
+# Build image
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["SGS.TaskTracker.csproj", "."]
-RUN dotnet restore "./SGS.TaskTracker.csproj"
-COPY . .
-WORKDIR "/src/."
-RUN dotnet build "./SGS.TaskTracker.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
-# This stage is used to publish the service project to be copied to the final stage
+# Copy project files
+COPY ["src/API/SGS.TaskTracker.API.csproj", "src/API/"]
+COPY ["src/Application/SGS.TaskTracker.Application.csproj", "src/Application/"]
+COPY ["src/Core/SGS.TaskTracker.Core.csproj", "src/Core/"]
+COPY ["src/Infrastructure/SGS.TaskTracker.Infrastructure.csproj", "src/Infrastructure/"]
+
+#COPY ["tests/SGS.TaskTracker.Tests.csproj", "tests/"]
+
+# Restore packages
+RUN dotnet restore "src/API/SGS.TaskTracker.API.csproj"
+
+# Copy source code
+COPY . .
+
+# Build
+WORKDIR "/src/src/API"
+RUN dotnet build "SGS.TaskTracker.API.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+# Publish
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./SGS.TaskTracker.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "SGS.TaskTracker.API.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
-# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
+# Final image
 FROM base AS final
 WORKDIR /app
+RUN mkdir -p /app/keys
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "SGS.TaskTracker.dll"]
+ENTRYPOINT ["dotnet", "SGS.TaskTracker.API.dll"]
