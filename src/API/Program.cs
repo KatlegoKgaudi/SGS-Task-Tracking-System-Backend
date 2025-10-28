@@ -1,10 +1,16 @@
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.OpenApi;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using SGS.TaskTracker.Application.Common_.Validators;
+using SGS.TaskTracker.Application.Services;
+using SGS.TaskTracker.Core.Data;
+using SGS.TaskTracker.Core.Interfaces;
+using SGS.TaskTracker.Infrastructure.Data.Repositories;
 using SGS.TaskTracker.Interfaces;
-using SGS.TaskTracker.Repository;
-
+using SGS.TaskTracker.Services;
+using SSGTaskTracker.Infrastructure.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);

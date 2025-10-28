@@ -1,10 +1,8 @@
-﻿using SGS.TaskTracker.Core.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using SGS.TaskTracker.Core.Data;
+using SGS.TaskTracker.Core.Entities;
 using SGS.TaskTracker.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace SGS.TaskTracker.Infrastructure.Data.Repositories
 {

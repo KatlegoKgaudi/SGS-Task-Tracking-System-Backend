@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SGS.TaskTracker.Application.Common_.Interfaces
+﻿namespace SGS.TaskTracker.Common.Interfaces
 {
     public interface IMappingService
     {

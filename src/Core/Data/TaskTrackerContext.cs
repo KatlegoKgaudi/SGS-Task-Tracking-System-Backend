@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SGS.TaskTracker.Core.Entities;
 using SGS.TaskTracker.Entities;
-using SGS.TaskTracker.Models;
 
 
-namespace SGS.TaskTracker.Data
+namespace SGS.TaskTracker.Core.Data
 {
-    class TaskTrackerContext : DbContext
+    public class TaskTrackerContext : DbContext
     {
         public TaskTrackerContext(DbContextOptions<TaskTrackerContext> options) : base(options) { }
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d7yfglShY4s=",
+  "dgSpecHash": "MRy1TRuH5ss=",
   "success": true,
   "projectFilePath": "C:\\Users\\katle\\Desktop\\DEV\\SGS-Task-Tracking-Assessment-Backend\\SGS.TaskTracker\\src\\Application\\SGS.TaskTracker.Application.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,9 @@
     "C:\\Users\\katle\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.10\\microsoft.extensions.configuration.abstractions.9.0.10.nupkg.sha512",
     "C:\\Users\\katle\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.10\\microsoft.extensions.dependencyinjection.9.0.10.nupkg.sha512",
     "C:\\Users\\katle\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.10\\microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\katle\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.10\\microsoft.extensions.diagnostics.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\katle\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.10\\microsoft.extensions.fileproviders.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\katle\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\9.0.10\\microsoft.extensions.hosting.abstractions.9.0.10.nupkg.sha512",
     "C:\\Users\\katle\\.nuget\\packages\\microsoft.extensions.logging\\9.0.10\\microsoft.extensions.logging.9.0.10.nupkg.sha512",
     "C:\\Users\\katle\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.10\\microsoft.extensions.logging.abstractions.9.0.10.nupkg.sha512",
     "C:\\Users\\katle\\.nuget\\packages\\microsoft.extensions.options\\9.0.10\\microsoft.extensions.options.9.0.10.nupkg.sha512",
