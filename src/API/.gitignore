@@ -1,6 +1,6 @@
 ## .gitignore for .NET Clean Architecture
 
-# Build outputs
+# Build outputs - these should cover your AssemblyInfo files
 [Bb]in/
 [Oo]bj/
 [Bb]uild/
@@ -12,7 +12,7 @@ x64/
 x86/
 [Aa]rm64/
 
-# Visual Studio files
+# Visual Studio files - these should cover .suo and DocumentLayout.json
 .vs/
 .vscode/
 *.user
